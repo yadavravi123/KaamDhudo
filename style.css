@@ -1,0 +1,278 @@
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Chela+One&family=Inconsolata&family=M+PLUS+1p&display=swap');
+
+/* top section */
+.top-detail{
+    display: inline-block;
+    position: absolute;
+    right: 4%;
+    top: 5%;
+    align-items: first baseline;
+    display: flex;
+    justify-content: space-between;
+    width: 40%;
+    /* width: 50%; */
+
+}
+.kaamdhudo{
+    /* display: inline; */
+    width: 30%;
+    height: 40px;
+    top:5%;
+    margin-top:1rem;
+    margin-left: 1rem;
+    display: inline-block;
+}
+.tag-line{
+    margin-top: 0;
+    margin-left: 35%;
+}
+
+  .service-on-demand{
+    text-align: center;
+    margin-top: 8%;
+    padding-bottom: 2rem;
+  }
+  .input-group{
+
+  }
+  .services{
+    background-color: #FFF4F4;
+    padding: 2rem;
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+    margin-top: 6rem;
+    /* border-radius: 8%; */
+    display: flex;
+    flex-wrap: wrap;
+    /* flex-direction: row;
+    /* flex-basis: 200px; */
+    justify-content: center;
+    gap: 6rem;
+  }
+  .service-items{
+    /* display: flex; */
+    /* flex-direction:column; */
+   /* background-color: #FAF0E4; */
+   text-align: center;
+   }
+   .service-items:hover{
+    transform: scale(1.2);  
+   }
+   .service-image{
+    width: 6rem;
+
+   }
+   .many-more{
+        /* background-color: blue; */
+        padding-top: 6rem;
+        font-family:Brush Script MT, Brush Script Std, cursive;
+        font-weight: bolder;
+        font-size: x-large;
+   }
+   .service-text{
+      
+   }
+   .link-to-services:hover{
+    /* box-shadow: rgba(0, 0, 0, 0.1) 0px 20px 25px -5px, rgba(0, 0, 0, 0.04) 0px 10px 10px -5px; */
+    /* box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px, rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px; */
+   }
+
+   /* top section ends here */
+
+   /* customer review starts here */
+   .customer-review{
+        /* margin-top: 2rem; */
+        padding-top: 4rem;
+        padding-left: 2rem;
+        background-color: black;
+        /* height:40rem; */
+        padding-bottom: 6rem;
+   }
+   .what-clients{
+        color: white;
+        /* text-align: center; */
+        font-size: xx-large;
+        padding-left: 2rem;
+        margin-bottom: 2rem ;
+   }
+   .customer-review-card{
+        display: flex;
+        flex-wrap: wrap;
+        gap:2rem;
+        justify-content: center;
+    
+   }
+   .review-card{
+        background-color: white;
+        width: 20rem;
+        border-radius: 5%;
+        padding-bottom: 1rem;
+        padding-left: 1rem;
+   }
+   .content{
+        padding: 1rem;
+   }
+   .customer-img{
+        width: 8rem;
+        border-radius: 50%;
+   }
+   .customer-name{
+    font-size: large;
+    padding-top: 1rem;
+    font-family: 'Times New Roman', Times, serif;
+    color: grey;
+   }
+   /* customer review ends here */
+
+   /* footer starts here */
+   .footer{
+          background-color:#0E2954;
+          padding-top: 4rem;
+          /* margin-top: 4rem; */
+          padding: 3rem;
+   }
+   .main-footer{
+     display: flex;
+   }
+   .leftmost{
+     color:white;
+     flex-basis: 10rem;
+     font-family: OCR A Std, monospace;
+     font-weight: bolder;
+     font-size: larger;
+     justify-content: center;
+   }
+
+  /* vision section */
+  .vision{
+    background-color: #A7EDE7;
+    padding: 4rem;
+    padding-bottom: 6rem;
+
+  }
+  .vision-parent{
+    display: flex;
+    justify-content: space-between;
+  }
+  .vision-text{
+    font-family: 'M PLUS 1p', sans-serif;
+    font-size: 1.7rem;
+    font-weight: bold;
+    color:#2B2A4C;
+    line-height: 3rem;
+  }
+  .our-vision{
+    font-family: 'M PLUS 1p', sans-serif;
+    font-size: 2rem;
+    font-weight: bold;
+    color:#2B2A4C;
+  }
+  .vision-img{
+
+  }
+
+  /* our team */
+  .team{
+    padding: 2rem;
+    padding-bottom: 3rem;
+    padding-top: 3rem;
+  }
+  #team-row{
+    display: flex;
+    justify-content: space-between;
+  }
+ #members{
+  margin: 2rem;
+  border-color: #ffa500;
+  border-style: solid;
+  border-radius: 10%;
+  padding: 1rem;
+ }
+ .our-team{
+  font-family: 'M PLUS 1p', sans-serif;
+  font-size: 1.7rem;
+  font-weight: bold;
+  color:#2B2A4C;
+ }
+ .member-text{
+  
+ }
+ .btn-linkedin {
+  -webkit-border-radius: 35;
+  -moz-border-radius: 14;
+  border-radius: 35px;
+  font-family: Arial;
+  color: #121212;
+  font-size: 20px;
+  background: #ffffff;
+  border: solid #020f17 1px;
+  text-decoration: none;
+  text-align: center;
+  margin-top: 0.6rem;
+}
+
+.btn-linkedin:hover {
+  background: #0a66c2;
+  text-decoration: none;
+  color:white;
+}
+
+/* footer */
+.btn-subscribe {
+  -webkit-border-radius: 8;
+  -moz-border-radius: 8;
+  border-radius: 8px;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 20px;
+  background: #071b29;
+  padding: 10px 20px 10px 20px;
+  width: 9rem;
+  height: 3rem;
+  margin-top: 1rem;
+  text-decoration: none;
+}
+
+.btn-subscribe:hover {
+  background: #4b5861;
+  text-decoration: none;
+}
+.copyright{
+  display: flex;
+  justify-content: center; 
+  
+}
+.footer{
+  padding-top: 4rem;
+}
+.main-footer{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.rightmost{
+  color: white;
+  font-family: OCR A Std, monospace;
+  font-weight: bolder;
+  font-size: larger;
+}
+.social-handles{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+}
+.social{
+  margin: 2rem;
+}
+.social:hover{
+  transform: scale(1.3); 
+}
+
+
+  /* media queries */
+  @media only screen and (max-width: 600px) {
+    .vision-img{
+      display: block;
+    }
+  }
